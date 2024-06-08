@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".AddPhysicalStateActivity">
+
+    <EditText
+        android:id="@+id/sensorTypeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/sensor_type_hint" />
+
+    <EditText
+        android:id="@+id/heartRateEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sensorTypeEditText"
+        android:layout_marginTop="8dp"
+        android:hint="@string/heart_rate_hint"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/temperatureEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/heartRateEditText"
+        android:layout_marginTop="8dp"
+        android:hint="@string/temperature_hint"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/bloodPressureEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/temperatureEditText"
+        android:layout_marginTop="8dp"
+        android:hint="@string/blood_pressure_hint" />
+
+    <EditText
+        android:id="@+id/localizationEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bloodPressureEditText"
+        android:layout_marginTop="8dp"
+        android:hint="@string/localization_hint" />
+
+    <Button
+        android:id="@+id/savePhysicalStateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/localizationEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/save_physical_state_button" />
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+.custom-dropdown-toggle {
+    background: transparent;
+    border: none;
+    color: white !important;
+}
+
+.custom-dropdown-menu {
+    background-color: #fff !important;
+    border: none !important;
+}
+
+.custom-dropdown-item {
+    color: #000 !important;
+}
+
+.custom-dropdown-item:hover, .custom-dropdown-item:focus {
+    background-color: #e9ecef !important;
+    color: #000 !important;
+}
+
+.disabled-item {
+    opacity: 0.5 !important;
+    pointer-events: none !important;
+}

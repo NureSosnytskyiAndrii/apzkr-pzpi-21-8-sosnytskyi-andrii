@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">SafetyShield</string>
+
+    <string name="hello_first_fragment" translatable="false">Hello First Fragment</string>
+    <string name="next" translatable="false">Next</string>
+    <string name="previous" translatable="false">Previous</string>
+    <string name="first_fragment_label" translatable="false">First Fragment</string>
+    <string name="second_fragment_label" translatable="false">Second Fragment</string>
+
+    <string name="sensor_type_hint">Sensor Type</string>
+    <string name="heart_rate_hint">Heart Rate</string>
+    <string name="temperature_hint">Temperature</string>
+    <string name="blood_pressure_hint">Blood Pressure</string>
+    <string name="localization_hint">Localization</string>
+    <string name="save_physical_state_button">Save Physical State</string>
+    <string name="status_hint">Status</string>
+    <string name="notes_hint">Notes</string>
+    <string name="save_state_button">Save State</string>
+    <string name="average_heart_rate">Average Heart Rate</string>
+    <string name="std_deviation">Std deviation</string>
+    <string name="min_heart_rate">Min Heart Rate</string>
+    <string name="max_heart_rate">Max Heart Rate</string>
+    <string name="health_index">Health Index</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Login</string>
+    <string name="register_button">Register</string>
+    <string name="view_organizations_button">View Organizations</string>
+    <string name="get_user_info_button">Get User info</string>
+    <string name="name_hint">Name</string>
+    <string name="surname_hint">Surname</string>
+    <string name="toolbar_title">Toolbar</string>
+    <string name="get_physical_state_button">Get Physical State</string>
+    <string name="add_state_button">Add State</string>
+    <string name="add_physical_state_button">Add Physical State</string>
+    <string name="go_to_sensor_data_button">Go to sensor data</string>
+
+</resources>

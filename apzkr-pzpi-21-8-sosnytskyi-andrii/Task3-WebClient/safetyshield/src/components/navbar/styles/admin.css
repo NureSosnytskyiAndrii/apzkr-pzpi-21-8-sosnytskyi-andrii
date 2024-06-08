@@ -1,0 +1,19 @@
+
+.blockStyle  {
+    width: 600px;
+    margin: 5px;
+    float: left;
+}
+
+.ulStyle {
+    list-style: none;
+    padding: 0
+}
+
+.ulStyle a {
+    text-decoration: none;
+}
+
+.infoTable {
+    margin: 10px;
+}

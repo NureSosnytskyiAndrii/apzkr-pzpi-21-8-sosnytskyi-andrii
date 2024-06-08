@@ -1,0 +1,77 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    height: 1000px;
+}
+
+.home-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.home-description {
+    flex: 1 1 50%;
+    padding: 20px;
+    text-align: left;
+}
+
+.home-image {
+    flex: 1 1 50%;
+    text-align: center;
+}
+
+.home-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.links-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.geolocation-link, .state-link {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.geolocation-link .btn {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #80bd80;
+}
+
+.state-link .btn {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #cb2727;
+}
+
+.geolocation-link .btn:hover {
+    color: #26a826;
+}
+
+.state-link .btn:hover {
+    color: #981919;
+}
+
+.geolocation-link .btn i, .state-link .btn i {
+    margin-right: 10px;
+}
